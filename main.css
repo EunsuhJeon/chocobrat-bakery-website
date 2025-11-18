@@ -18,7 +18,8 @@
 }
 
 .about-bakery a,
-.order-cake-section a{
+.order-cake-section a,
+footer a{
     text-decoration: none;
 }
 
@@ -190,6 +191,83 @@
 .quotes-speaker .dots:nth-child(2){
     background-color: #4a1d1f;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffefbd;
+    width: 100vw;
+    height: 250px;
+    color: #000000;
+}
+
+.footer-nav-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 60px 70px 30px 70px;
+}
+
+footer h4{
+    color: #4a1d1f;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+footer nav{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+footer ul{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+
+footer ul a:link,
+footer ul a:active,
+footer ul a:visited{
+    color: #000000;
+}
+
+#footer-line{
+    border-bottom: 1px solid #4a1d1f2d;
+    display: inline-block;
+    width: 100%;
+}
+
+footer div nav,
+footer div p{
+    font-size: 18px;
+}
+
+.footer-copy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 32px 70px;
+}
+
+.icons{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-template-rows: 1fr;
+    gap: 24px;
+    margin-top: auto;
+    margin-right: 40px;
+}
+
+.icons img{
+    width: 20px;
+}
+
 /* Jade - end */
 
 

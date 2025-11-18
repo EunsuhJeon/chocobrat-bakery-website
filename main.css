@@ -90,6 +90,106 @@
     color: #ffffff;
     border-radius: 10px;
 }
+
+.quotes-section{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50px auto 200px;
+    width: 100vw;
+    background-color: #ffffff;
+    padding: 80px 180px;
+}
+
+.quotes-section > div{
+    justify-self: center;
+}
+
+.quotes-title{
+    width: 85px;
+    height: 22px;
+    border-radius: 10px;
+    background-color: #ffefbd;
+    text-align: center;
+}
+
+.quotes-wrapper{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.quotes-wrapper > div{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 200px;
+}
+
+.quotes-left{
+    align-self: baseline;
+    position: relative;
+    top: -52px;
+    left: 70px;
+    background: linear-gradient(to bottom, #fdcb5d 0%, #fdcb5d 10%, #ffffff 50%, #ffffff 100%);
+    background-clip: text;
+    color: transparent;
+    z-index: 1;
+}
+
+.quotes-right{
+    align-self: end;
+    position: relative;
+    top: -160px;
+    right: 90px;
+    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 20%, #fdcb5d 50%, #fdcb5d 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.quotes-wrapper > p{
+    position: relative;
+    font-size: 50px;
+    font-weight: 500;
+    z-index: 2;
+}
+
+.quotes-speaker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.quotes-speaker img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.quotes-speaker h4{
+    font-size: 28px;
+    font-weight: 600;
+    color: #4a1d1f;
+}
+
+.quotes-speaker .dots-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.quotes-speaker .dots{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffefbd;
+}
+
+.quotes-speaker .dots:nth-child(2){
+    background-color: #4a1d1f;
+}
 /* Jade - end */
 
 

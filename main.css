@@ -7,7 +7,89 @@
     font-style: normal;
 }
 /* Jade - start */
+.about-bakery{
+    width: 100vw;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 470px 470px;
+    padding: 120px 120px 0 120px;
+    gap: 40px;
+}
 
+.about-bakery a,
+.order-cake-section a{
+    text-decoration: none;
+}
+
+.about-desc h3{
+    color: #4a1d1f;
+    padding: 20px 0;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.about-desc p{
+    font-size: 19px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.about-desc a{
+    color: #4a1d1f;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.about-img-wrapper img{
+    width: 600px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.img-right{
+    text-align: right;
+}
+
+.img-left{
+    text-align: left;
+}
+
+.order-cake-section{
+    width: 100vw;
+    background-color: #ffefbd;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 60px 0;
+    text-align: center;
+    gap: 20px;
+}
+
+.order-cake-section h3{
+    font-size: 30px;
+    color: #4a1d1f;
+}
+
+.order-cake-section p {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.order-cake-section > div,
+.order-cake-section a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-cake-section a{
+    width: 180px;
+    height: 50px;
+    background-color: #4a1d1f;
+    color: #ffffff;
+    border-radius: 10px;
+}
 /* Jade - end */
 
 

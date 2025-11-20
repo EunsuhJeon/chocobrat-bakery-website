@@ -1,6 +1,6 @@
-# Chocobrat Bakery Website (HTML & CSS)
+# 🍫 Chocobrat Bakery Website (HTML & CSS)
 
-!🍫[Chocobrat Bakery Preview](./images/Screenshot-for-README.png)
+![Chocobrat Bakery Preview](./images/Screenshot-for-README.png)
 
 ---
 

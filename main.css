@@ -272,6 +272,10 @@ footer div p{
 
 
 /* Javier - start */
+body{
+    overflow-x: hidden;
+}
+
 header{
     display: flex;
     background-color: white;
@@ -543,7 +547,7 @@ section .section-slide-menu-2{
     display: grid;
     margin-left: 120px;
     grid-template-columns: repeat(4, 230px);
-    grid-template-rows: 280px 50px 20px 50px;
+    grid-template-rows: 280px 50px 20px 100px;
     row-gap: 10px;
     column-gap: 60px;
     overflow: hidden;
@@ -667,22 +671,22 @@ section .section-slide-menu-2{
 
 
 .section-slide-menu-2 .star-1 p{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 200;
     color: gray;
 }
 .section-slide-menu-2 .star-2 p{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 200;
     color: gray;
 }
 .section-slide-menu-2 .star-3 p{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 200;
     color: gray;
 }
 .section-slide-menu-2 .star-4 p{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 200;
     color: gray;
 }
@@ -693,7 +697,7 @@ section .section-slide-menu-2{
 }
 
 .rating {
-  font-size: 20px; 
+  font-size: 28px; 
   color: #ccc;
 }
 
@@ -716,8 +720,10 @@ section .section-slide-menu-2{
     grid-row: 4 / 5;
     grid-column: 1 / 6;
     border: 2px #4a1d1f solid;
+    margin-top: 50px;
+    margin-right: 180px;
     height: 40px;
-    width: 140px;
+    width: 160px;
     display: grid;
 }
 

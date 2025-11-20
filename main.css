@@ -294,11 +294,6 @@ header h2{
 }
 
 
-header a svg{
-    width: 20px;
-}
-
-
 header nav ul{
     display: flex;
     list-style-type: none;
@@ -311,6 +306,17 @@ header nav ul{
 header ul li a{
     text-decoration: none;
     color: black;
+}
+
+nav.header-nav ul li a div{
+    display: flex;
+    align-items: center; 
+    gap: 2px; 
+}
+
+nav.header-nav ul li a div span:last-child{
+    display: inline-block;
+    transform: translateY(-5px);
 }
 
 header .login-input{
@@ -331,14 +337,14 @@ header input{
 }
 
 .login-input .searching-div input{
-    height: 30px;
-    width: 180px;
+    height: 40px;
+    width: 200px;
 }
 
 .login-input .searching-div div{
     background-color: #4a1d1f;
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
 }
 
 .searching-div div a{
@@ -358,7 +364,7 @@ header input{
 }
 
 .login-input a svg{
-    width: 25px;
+    width: 30px;
 }
 
 main .first-section{
@@ -366,7 +372,7 @@ main .first-section{
     margin-left: 120px;
     padding-top: 60px;
     grid-template-columns: 2fr 3fr;
-    grid-template-rows: 600px 200px;
+    grid-template-rows: 600px 350px;
     justify-self: center;
 }
 
@@ -489,6 +495,7 @@ main section .right-side img{
     grid-row: 1 / 2;
     color: #4a1d1f;
     align-self: center;
+    justify-self: center;
 }
 
 .right-side .slide-1 .image-slide-1{
